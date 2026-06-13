@@ -143,9 +143,10 @@ You can host the app for free on a PHP + MySQL provider such as
 2. **Create a MySQL database** from the control panel (vPanel → *MySQL Databases*).
    Note the generated **database name, username, host, and password**.
 3. **Import the schema:** open **phpMyAdmin** from the panel, select your new
-   database, use the **Import** tab, and upload `database/schema.sql`.
-   *(If the host disallows `CREATE DATABASE`, delete the first `CREATE DATABASE`
-   and `USE` lines from the SQL and import into the database you created in step 2.)*
+   database in the left sidebar, use the **Import** tab, and upload
+   **`database/schema_hosting.sql`**. This hosting-ready file omits the
+   `CREATE DATABASE` / `USE` lines (free hosts like InfinityFree forbid them),
+   so it imports straight into the database you created in step 2.
 4. **Edit `config/db.php`** with the host-provided `$DB_HOST`, `$DB_NAME`,
    `$DB_USER`, and `$DB_PASS`.
 5. **Upload all project files** to the `htdocs` (public) folder via the host's
