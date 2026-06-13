@@ -1,0 +1,21 @@
+# Local environment / secrets
+config/db.local.php
+.env
+*.local.php
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs & PHP build artefacts
+*.log
+/vendor/
+composer.lock
+
+# Database dumps (keep the committed schema.sql, ignore ad-hoc dumps)
+*.sql.bak
+/backups/
