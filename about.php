@@ -7,10 +7,9 @@ require __DIR__ . '/includes/header.php';
 // ---- Edit your group details here ----
 $group_id = '[your group ID]';
 $members = [
-    ['name' => '[member 1]', 'id' => '[ID 1]'],
-    ['name' => '[member 2]', 'id' => '[ID 2]'],
-    ['name' => '[member 3]', 'id' => '[ID 3]'],
-    ['name' => '[member 4]', 'id' => '[ID 4]'],
+    ['name' => 'Md. Faridul Islam', 'id' => '2020200010006'],
+    // Add the remaining group members here, e.g.:
+    // ['name' => '[member 2]', 'id' => '[ID 2]'],
 ];
 ?>
 

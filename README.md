@@ -167,12 +167,9 @@ You can host the app for free on a PHP + MySQL provider such as
 
 - **Group ID:** [your group ID]
 
-| #  | Name        | Student ID |
-|----|-------------|------------|
-| 1  | [member 1]  | [ID 1]     |
-| 2  | [member 2]  | [ID 2]     |
-| 3  | [member 3]  | [ID 3]     |
-| 4  | [member 4]  | [ID 4]     |
+| #  | Name              | Student ID    |
+|----|-------------------|---------------|
+| 1  | Md. Faridul Islam | 2020200010006 |
 
 ---
 
